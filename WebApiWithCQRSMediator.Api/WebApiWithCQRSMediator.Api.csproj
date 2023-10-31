@@ -15,4 +15,9 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebApiWithCQRSMediator.Core\WebApiWithCQRSMediator.Core.csproj" />
+    <ProjectReference Include="..\WebApiWithCQRSMediator.Infra\WebApiWithCQRSMediator.Infra.csproj" />
+  </ItemGroup>
+
 </Project>
