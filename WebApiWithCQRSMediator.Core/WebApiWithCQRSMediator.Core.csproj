@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Blogs\Commands\Create\" />
+    <Folder Include="Blogs\Commands\Delete\" />
+    <Folder Include="Blogs\Commands\Update\" />
+    <Folder Include="Blogs\Queries\Get\" />
+    <Folder Include="Blogs\Queries\GetById\" />
+    <Folder Include="Common\Behaviaours\" />
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Mappings\" />
+  </ItemGroup>
+
+</Project>
